@@ -1,84 +1,140 @@
 <div align="center">
+  <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:1a1a2e&height=120&section=header&animation=fadeIn" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0a0a,100:111111&height=2&section=header" width="100%"/>
 
-</div>
+  <br/>
 
-<div align="center">
-  <h1>Roseanne Park</h1>
-  <p><strong>Rust Engineer · Web3 Developer · Blockchain Builder</strong></p>
+  <h1>
+    <img src="https://readme-typing-svg.demolab.com?font=Geist+Mono&weight=700&size=32&pause=2000&color=FFFFFF&center=true&vCenter=true&width=400&lines=Roseanne+Park" alt="Roseanne Park"/>
+  </h1>
+
   <p>
-    <a href="https://twitter.com/aureliusss_"><img src="https://img.shields.io/badge/𝕏 @aureliusss__-000000?style=flat-square&logo=x&logoColor=white"/></a>
-    <a href="https://github.com/Roseanne244"><img src="https://img.shields.io/badge/GitHub-Roseanne244-181717?style=flat-square&logo=github"/></a>
-    <img src="https://komarev.com/ghpvc/?username=Roseanne244&style=flat-square&color=blueviolet&label=profile+views"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Geist+Mono&weight=400&size=14&pause=1500&color=888888&center=true&vCenter=true&width=520&lines=Rust+Engineer+%C2%B7+Solana+Developer+%C2%B7+EVM+Smart+Contracts;Building+fast%2C+safe%2C+and+decentralized+systems;Indonesia+%F0%9F%87%AE%F0%9F%87%A9" alt="subtitle"/>
   </p>
+
+  <br/>
+
+  <a href="https://twitter.com/aureliusss_">
+    <img src="https://img.shields.io/badge/@aureliusss__-1a1a1a?style=flat-square&logo=x&logoColor=888888"/>
+  </a>
+  &nbsp;
+  <a href="https://github.com/Roseanne244">
+    <img src="https://img.shields.io/badge/github.com/Roseanne244-1a1a1a?style=flat-square&logo=github&logoColor=888888"/>
+  </a>
+  &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=Roseanne244&style=flat-square&color=1a1a1a&label=visitors&abbreviated=true"/>
+
+  <br/><br/>
+
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=1a1a1a&height=1&section=header" width="60%"/>
+
+  <br/><br/>
+
 </div>
 
-<br/>
+<img align="right" width="36%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Roseanne244&layout=compact&hide_border=true&bg_color=111111&title_color=ffffff&text_color=888888&langs_count=5"/>
+
+### `about`
+
+I write **Rust** for systems and blockchain infrastructure —  
+from async REST APIs to native on-chain Solana programs  
+and battle-tested EVM smart contracts.
+
+- 🦀 &nbsp; Rust — safety, speed, zero-cost abstractions
+- ☀️ &nbsp; Solana — on-chain programs, PDAs, SPL tokens
+- ⛓️ &nbsp; Ethereum — ERC-20/721, DeFi, Solidity
+- 📖 &nbsp; Currently: Anchor framework, DeFi protocol design
+- 📍 &nbsp; Indonesia
+
+<br clear="right"/>
 
 ---
 
-## `$ whoami`
+### `skills`
 
-```rust
-pub struct Engineer {
-    name:       &'static str,
-    location:   &'static str,
-    focus:      &'static [&'static str],
-    currently:  &'static str,
-    available:  bool,
-}
-
-pub const ME: Engineer = Engineer {
-    name:       "Roseanne Park",
-    location:   "Indonesia",
-    focus:      &["Rust", "Solana", "Ethereum", "DeFi", "Systems"],
-    currently:  "Building on-chain programs & DeFi protocols",
-    available:  true,
-};
+```
+Languages    Rust · Solidity · TypeScript · Shell
+Solana       Native Programs · Borsh · SPL · Solana CLI · Anchor
+Ethereum     ERC-20 · ERC-721 · DeFi · ethers.js · Hardhat · Remix
+Backend      Axum · Actix-web · Tokio · REST · Arc<RwLock<T>>
+Tooling      Cargo · cargo build-sbf · Git · MetaMask · VS Code
 ```
 
-> I build **fast**, **secure**, and **decentralized** software.  
-> My interest sits at the intersection of systems programming and blockchain infrastructure —  
-> from bare-metal Rust to on-chain Solana programs and EVM smart contracts.
-
 ---
 
-## `$ ls ./expertise`
+### `projects`
 
 <table>
 <tr>
-<td valign="top" width="33%">
+<td width="50%" valign="top">
 
-### ⚙️ Systems & Backend
-- Rust (Ownership, Async, Traits)
-- Axum · Actix-web · Tokio
-- REST API Design
-- CLI tooling with `clap`
-- Memory management & safety
-- Concurrent programming
+**[☀️ solana-program-starter](https://github.com/Roseanne244/solana-program-starter)**
+> Native Solana counter program with authority-gated reset, Borsh state, and custom error types
+
+`Rust` `Solana` `Borsh` `thiserror`
 
 </td>
-<td valign="top" width="33%">
+<td width="50%" valign="top">
 
-### ☀️ Solana / Web3
-- Native on-chain programs (Rust)
-- Borsh serialization
-- Account model & PDAs
-- Solana Program Library (SPL)
-- Anchor framework (learning)
-- Solana CLI & devnet deployment
+**[⛓️ blockchain-concepts-rust](https://github.com/Roseanne244/blockchain-concepts-rust)**
+> Mini blockchain from scratch — SHA-256 hashing, Proof of Work mining, tamper detection
+
+`Rust` `sha2` `serde` `chrono`
 
 </td>
-<td valign="top" width="33%">
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-### ⛓️ Ethereum / EVM
-- Solidity smart contracts
-- ERC-20 · ERC-721 standards
-- DeFi: staking, reward mechanics
-- OpenZeppelin contracts
-- ethers.js · web3.js
-- Remix IDE · Hardhat · Testnet
+**[💎 defi-staking-contract](https://github.com/Roseanne244/defi-staking-contract)**
+> DeFi staking protocol using Synthetix reward-per-token algorithm with ReentrancyGuard
+
+`Solidity` `OpenZeppelin` `DeFi`
+
+</td>
+<td width="50%" valign="top">
+
+**[⚡ web-api-axum](https://github.com/Roseanne244/web-api-axum)**
+> Production REST API — Task Manager with async handlers, shared state, and JSON extractor
+
+`Rust` `Axum` `Tokio` `uuid`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**[🔗 web-api-actix](https://github.com/Roseanne244/web-api-actix)**
+> High-performance URL Shortener API with click tracking and redirect support
+
+`Rust` `Actix-web` `nanoid`
+
+</td>
+<td width="50%" valign="top">
+
+**[🔐 cli-password-generator](https://github.com/Roseanne244/cli-password-generator)**
+> Blazing-fast CLI password generator with strength rating and unit test suite
+
+`Rust` `clap` `rand`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**[🪙 erc20-token](https://github.com/Roseanne244/erc20-token)**
+> Custom RoseCoin (RSC) ERC-20 token deployed and verified on Sepolia testnet
+
+`Solidity` `ERC-20` `OpenZeppelin`
+
+</td>
+<td width="50%" valign="top">
+
+**[🌹 nft-collection-contract](https://github.com/Roseanne244/nft-collection-contract)**
+> ERC-721 NFT collection — paid minting, IPFS metadata, owner withdraw
+
+`Solidity` `ERC-721` `IPFS`
 
 </td>
 </tr>
@@ -86,152 +142,38 @@ pub const ME: Engineer = Engineer {
 
 ---
 
-## `$ cat ./projects.toml`
-
-```toml
-[[project]]
-name    = "solana-program-starter"
-desc    = "Native Solana on-chain counter program with authority access control"
-stack   = ["Rust", "Solana", "Borsh", "thiserror"]
-url     = "github.com/Roseanne244/solana-program-starter"
-status  = "active"
-
-[[project]]
-name    = "blockchain-concepts-rust"
-desc    = "Mini blockchain from scratch — SHA-256 hashing, Proof of Work, tamper detection"
-stack   = ["Rust", "sha2", "serde_json", "chrono"]
-url     = "github.com/Roseanne244/blockchain-concepts-rust"
-status  = "complete"
-
-[[project]]
-name    = "defi-staking-contract"
-desc    = "DeFi staking protocol using Synthetix reward-per-token algorithm"
-stack   = ["Solidity", "OpenZeppelin", "ReentrancyGuard"]
-url     = "github.com/Roseanne244/defi-staking-contract"
-status  = "complete"
-
-[[project]]
-name    = "web-api-axum"
-desc    = "Production REST API — Task Manager with async handlers and shared state"
-stack   = ["Rust", "Axum", "Tokio", "serde", "uuid"]
-url     = "github.com/Roseanne244/web-api-axum"
-status  = "complete"
-
-[[project]]
-name    = "web-api-actix"
-desc    = "High-performance URL Shortener API with click tracking"
-stack   = ["Rust", "Actix-web", "nanoid", "chrono"]
-url     = "github.com/Roseanne244/web-api-actix"
-status  = "complete"
-
-[[project]]
-name    = "cli-password-generator"
-desc    = "Blazing-fast CLI password generator with strength rating and unit tests"
-stack   = ["Rust", "clap", "rand", "colored"]
-url     = "github.com/Roseanne244/cli-password-generator"
-status  = "complete"
-
-[[project]]
-name    = "cli-file-organizer"
-desc    = "Auto-organizes 50+ file extensions into folders — dry-run mode supported"
-stack   = ["Rust", "clap", "walkdir", "colored"]
-url     = "github.com/Roseanne244/cli-file-organizer"
-status  = "complete"
-
-[[project]]
-name    = "systems-memory-concepts"
-desc    = "Deep dive: stack/heap, smart pointers, raw pointers, manual allocation"
-stack   = ["Rust", "unsafe", "Arc", "Mutex"]
-url     = "github.com/Roseanne244/systems-memory-concepts"
-status  = "complete"
-
-[[project]]
-name    = "erc20-token"
-desc    = "Custom RoseCoin (RSC) ERC-20 token — deployed on Sepolia testnet"
-stack   = ["Solidity", "OpenZeppelin", "ERC-20"]
-url     = "github.com/Roseanne244/erc20-token"
-status  = "complete"
-
-[[project]]
-name    = "nft-collection-contract"
-desc    = "ERC-721 NFT collection with paid minting, IPFS metadata, and withdraw"
-stack   = ["Solidity", "ERC-721", "IPFS", "Pinata"]
-url     = "github.com/Roseanne244/nft-collection-contract"
-status  = "complete"
-```
-
----
-
-## `$ git log --stat`
+### `stats`
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Roseanne244&show_icons=true&hide_border=true&bg_color=0d1117&title_color=e2e8f0&text_color=94a3b8&icon_color=6366f1&include_all_commits=true&count_private=true&hide=contribs"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Roseanne244&layout=compact&hide_border=true&bg_color=0d1117&title_color=e2e8f0&text_color=94a3b8&langs_count=6"/>
-
-</div>
-
-<div align="center">
-
-![GitHub Streak](https://streak-stats.demolab.com?user=Roseanne244&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=1e293b&ring=6366f1&fire=f43f5e&currStreakLabel=e2e8f0&sideLabels=94a3b8&dates=475569&currStreakNum=e2e8f0&sideNums=e2e8f0)
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Roseanne244&show_icons=true&hide_border=true&bg_color=111111&title_color=ffffff&text_color=888888&icon_color=ffffff&include_all_commits=true&count_private=true&hide=contribs&rank_icon=github"/>
+&nbsp;
+<img height="165" src="https://streak-stats.demolab.com?user=Roseanne244&hide_border=true&background=111111&stroke=222222&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=888888&dates=555555&currStreakNum=ffffff&sideNums=aaaaaa"/>
 
 </div>
 
 ---
 
-## `$ cat ./stack.json`
-
-```json
-{
-  "languages": {
-    "primary":    ["Rust", "Solidity"],
-    "secondary":  ["TypeScript", "JavaScript", "Shell"]
-  },
-  "blockchain": {
-    "solana":   ["Native Programs", "Borsh", "SPL", "Solana CLI"],
-    "ethereum": ["ERC-20", "ERC-721", "DeFi", "ethers.js", "Hardhat"]
-  },
-  "backend": {
-    "frameworks": ["Axum", "Actix-web"],
-    "runtime":    ["Tokio (async)"],
-    "concepts":   ["REST", "CRUD", "Shared State", "Arc + RwLock"]
-  },
-  "tooling": {
-    "build":    ["Cargo", "cargo build-sbf"],
-    "test":     ["cargo test", "solana-program-test"],
-    "dev":      ["Remix IDE", "Solana CLI", "MetaMask", "Git"]
-  }
-}
-```
-
----
-
-## `$ echo $ROADMAP`
-
-```
-2024 Q4  ██████████  Rust fundamentals, CLI tools
-2025 Q1  ██████████  REST APIs with Axum + Actix
-2025 Q2  ██████████  Solidity, ERC-20/721, DeFi contracts
-2025 Q3  ████████░░  Solana native programs, Borsh, SPL
-2025 Q4  ██████░░░░  Anchor framework, Solana DeFi
-2026 Q1  ████░░░░░░  Full-stack DApp (Solana + Next.js)
-2026 Q2  ██░░░░░░░░  Open source contribution, auditing
-```
-
----
-
 <div align="center">
-
-*"First, solve the problem. Then, write the code."*
 
 <br/>
 
-<a href="https://github.com/Roseanne244?tab=repositories">
-  <img src="https://img.shields.io/badge/View%20All%20Repositories-0d1117?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
+```rust
+while alive {
+    learn();
+    build();
+    ship();
+}
+```
 
-</div>
+<br/>
 
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:000000&height=100&section=footer&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=1a1a1a&height=1&section=footer" width="60%"/>
+
+<br/>
+
+<sub><a href="https://github.com/Roseanne244?tab=repositories">view all repositories →</a></sub>
+
+<br/><br/>
+
 </div>
