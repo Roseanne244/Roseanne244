@@ -37,13 +37,12 @@
 
 ### `about`
 
-I write **Rust** for systems and blockchain infrastructure —  
-from async REST APIs to native on-chain Solana programs  
+I write **Rust** for systems and blockchain infrastructure from async REST APIs to native on-chain Solana programs  
 and battle-tested EVM smart contracts.
 
-- 🦀 &nbsp; Rust — safety, speed, zero-cost abstractions
-- ☀️ &nbsp; Solana — on-chain programs, PDAs, SPL tokens
-- ⛓️ &nbsp; Ethereum — ERC-20/721, DeFi, Solidity
+- 🦀 &nbsp; Rust - safety, speed, zero-cost abstractions
+- ☀️ &nbsp; Solana - on-chain programs, PDAs, SPL tokens
+- ⛓️ &nbsp; Ethereum - ERC-20/721, DeFi, Solidity
 - 📖 &nbsp; Currently: Anchor framework, DeFi protocol design
 - 📍 &nbsp; Indonesia
 
@@ -78,7 +77,7 @@ Tooling      Cargo · cargo build-sbf · Git · MetaMask · VS Code
 <td width="50%" valign="top">
 
 **[⛓️ blockchain-concepts-rust](https://github.com/Roseanne244/blockchain-concepts-rust)**
-> Mini blockchain from scratch — SHA-256 hashing, Proof of Work mining, tamper detection
+> Mini blockchain from scratch - SHA-256 hashing, Proof of Work mining, tamper detection
 
 `Rust` `sha2` `serde` `chrono`
 
@@ -96,7 +95,7 @@ Tooling      Cargo · cargo build-sbf · Git · MetaMask · VS Code
 <td width="50%" valign="top">
 
 **[⚡ web-api-axum](https://github.com/Roseanne244/web-api-axum)**
-> Production REST API — Task Manager with async handlers, shared state, and JSON extractor
+> Production REST API - Task Manager with async handlers, shared state, and JSON extractor
 
 `Rust` `Axum` `Tokio` `uuid`
 
@@ -132,7 +131,7 @@ Tooling      Cargo · cargo build-sbf · Git · MetaMask · VS Code
 <td width="50%" valign="top">
 
 **[🌹 nft-collection-contract](https://github.com/Roseanne244/nft-collection-contract)**
-> ERC-721 NFT collection — paid minting, IPFS metadata, owner withdraw
+> ERC-721 NFT collection - paid minting, IPFS metadata, owner withdraw
 
 `Solidity` `ERC-721` `IPFS`
 
